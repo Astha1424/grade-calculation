@@ -1,0 +1,21 @@
+#python programe for grade calculations 
+N= (input(" Enter student name "))
+#students marks 
+marks1= int(input("Enter the marks of first subject"))
+marks2= int(input("Enter the marks of second subject"))
+marks3= int(input( "Enter the marks of third  subject"))
+marks4= int(input("Enter the marks of four subject"))
+marks5= int(input("Enter the marks of fifth subject"))
+sum = (marks1+marks2+marks3+marks4+marks5)
+avg= sum/5
+
+if (avg>=90):
+	print("Grade:A")  
+elif  (avg>=80):
+	print("Grade:B")  
+elif  (avg>=70):
+	print("Grade:C")  
+elif (avg>=60):
+	print("Grade:D")  
+else:
+	print(" Do Hard work")	
